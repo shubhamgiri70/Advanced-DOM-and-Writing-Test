@@ -1,0 +1,156 @@
+/* Box sizing */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Remove default margins and paddings */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd,
+figure,
+pre {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove default spacing for paragraphs */
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+/* Remove default spacing for headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+/* Remove default spacing for lists */
+ul,
+ol,
+dl {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+/* Remove default styling for form elements */
+input,
+textarea,
+button,
+select {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+/* Remove default styling for anchor tags */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove default styling for images */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remove default styling for tables */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* custom style */
+
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  background-color: bisque;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(101, 101, 235);
+  height: 4rem;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+li {
+  border: 1px solid black;
+  margin: 2rem;
+  padding: 1.3rem;
+  background-color: rgb(189, 102, 102);
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+.add_card {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+form {
+  border: 2px solid rgb(42, 99, 204);
+  width: 400px;
+  padding: 1rem;
+}
+
+input {
+  border: 1px solid black;
+  width: 90%;
+  margin-bottom: 1.5rem;
+  height: 2rem;
+  padding: 1rem;
+}
+
+button {
+  border: 1px solid black;
+  width: 90%;
+  height: 1.5rem;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
