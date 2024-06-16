@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(233, 233, 220);
+}
+
+blockquote {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+cite {
+  font-size: 2rem;
+  font-weight: 400;
+}
